@@ -4540,6 +4540,12 @@
 		(uuid "26af25ef-d2d2-46c2-befd-ebfa96e4e206")
 	)
 	(junction
+		(at 754.38 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "277b78c4-ec48-4195-ae25-36b2a3159499")
+	)
+	(junction
 		(at 231.14 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14120,6 +14126,16 @@
 	)
 	(wire
 		(pts
+			(xy 754.38 208.28) (xy 754.38 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "242ededa-ae9e-4286-8764-3632add495b5")
+	)
+	(wire
+		(pts
 			(xy 694.69 391.16) (xy 704.85 391.16)
 		)
 		(stroke
@@ -18970,6 +18986,16 @@
 	)
 	(wire
 		(pts
+			(xy 737.87 208.28) (xy 737.87 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a335db6-7f8e-4ac4-9ab2-08b945b66e6e")
+	)
+	(wire
+		(pts
 			(xy 386.08 313.69) (xy 402.59 313.69)
 		)
 		(stroke
@@ -20637,6 +20663,16 @@
 			(type default)
 		)
 		(uuid "7041a5d9-99e7-47f7-9a92-e5bd130ff255")
+	)
+	(wire
+		(pts
+			(xy 754.38 50.8) (xy 768.35 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "708490b2-d747-4651-912e-91e49f02cefb")
 	)
 	(wire
 		(pts
@@ -22530,6 +22566,16 @@
 	)
 	(wire
 		(pts
+			(xy 753.11 199.39) (xy 754.38 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86031355-50d8-4e73-9036-b73fff586942")
+	)
+	(wire
+		(pts
 			(xy 459.74 64.77) (xy 458.47 64.77)
 		)
 		(stroke
@@ -23310,6 +23356,16 @@
 	)
 	(wire
 		(pts
+			(xy 737.87 208.28) (xy 754.38 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9124f097-1cf8-4780-b80e-4eaf0f6c7bec")
+	)
+	(wire
+		(pts
 			(xy 694.69 396.24) (xy 704.85 396.24)
 		)
 		(stroke
@@ -24027,6 +24083,16 @@
 			(type default)
 		)
 		(uuid "99922a61-20ec-4e7c-8422-588f4b120cf6")
+	)
+	(wire
+		(pts
+			(xy 754.38 199.39) (xy 754.38 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99aa06ae-5edc-4983-8ff3-900e221f3689")
 	)
 	(bus
 		(pts
@@ -28380,6 +28446,16 @@
 	)
 	(wire
 		(pts
+			(xy 737.87 199.39) (xy 745.49 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd0242cb-c5f5-4676-9dce-7d871836a0a2")
+	)
+	(wire
+		(pts
 			(xy 458.47 115.57) (xy 461.01 115.57)
 		)
 		(stroke
@@ -32257,16 +32333,6 @@
 			(type default)
 		)
 		(uuid "f8706bb8-c388-4585-a6ca-c8593b16417c")
-	)
-	(wire
-		(pts
-			(xy 737.87 209.55) (xy 737.87 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f87f42b9-7f22-4785-84d2-c0d4ee28e6a0")
 	)
 	(wire
 		(pts
@@ -42933,6 +42999,241 @@
 		)
 	)
 	(symbol
+		(lib_name "AD8604ARUZ_1")
+		(lib_id "AD8604ARUZ:AD8604ARUZ")
+		(at 786.13 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23d3d296-2cf7-42ec-b5a8-538a7326b784")
+		(property "Reference" "U60D"
+			(at 786.13 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AD8604ARUZ"
+			(at 786.13 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AD8604ARUZ:SOP65P640X120-14N"
+			(at 786.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 786.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 786.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Analog Devices"
+			(at 786.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "DigiTrim™ RRIO Quad Op Amp with Very Low Offset Voltage"
+			(at 786.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "TSSOP-14"
+			(at 786.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AD8604ARUZ"
+			(at 786.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 786.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "TSSOP-14 Analog Devices"
+			(at 786.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1660995"
+			(at 786.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AD8604ARUZ/Analog+Devices/view-part/?ref=snap"
+			(at 747.522 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "AD8604ARUZ"
+			(at 786.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" "Analog Devices"
+			(at 786.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_NEWARK" "19M8924"
+			(at 786.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 786.13 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/AD8604ARUZ/Analog+Devices/view-part/?ref=eda"
+			(at 747.776 46.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "36bba2a9-7706-46cf-9070-9351fbdfca74")
+		)
+		(pin "8"
+			(uuid "53e2dc70-6d59-4cf2-9278-05729e2f0783")
+		)
+		(pin "1"
+			(uuid "e6653b69-69d1-45d2-9b26-fbcbf340067c")
+		)
+		(pin "12"
+			(uuid "21d96aa2-2968-45f5-b2fa-e9249b1be0dc")
+		)
+		(pin "7"
+			(uuid "faca0c82-f0f9-4127-9ac8-8582a98c0f91")
+		)
+		(pin "2"
+			(uuid "21ac59ca-4894-436f-9a20-1a6f182d9409")
+		)
+		(pin "9"
+			(uuid "98b436c2-bd0f-4373-be2e-5919dc0d6444")
+		)
+		(pin "11"
+			(uuid "017f5a54-a798-4051-b363-1a6cc59f068d")
+		)
+		(pin "6"
+			(uuid "44e80a98-10f5-463c-a48b-0617b94c5ef1")
+		)
+		(pin "13"
+			(uuid "5d3d9ebc-e858-403b-868e-9e81ccdf13a6")
+		)
+		(pin "4"
+			(uuid "b8d4d2c0-f5b8-4a72-9c9f-9363ff3217fc")
+		)
+		(pin "3"
+			(uuid "66a76196-794d-402f-9ba3-65f3d1fe6a53")
+		)
+		(pin "5"
+			(uuid "863cef44-4c9d-4c08-9bd0-6247dbd74998")
+		)
+		(pin "10"
+			(uuid "c85c5462-b088-4096-a89e-3afd0bd48fae")
+		)
+		(instances
+			(project "04-Pilotaggio Matrice"
+				(path "/dbbecc10-9e32-47f2-bd9c-012d17b9618d"
+					(reference "U60D")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 455.93 162.56 90)
 		(unit 1)
@@ -46115,6 +46416,241 @@
 			(project "04-Pilotaggio Matrice"
 				(path "/dbbecc10-9e32-47f2-bd9c-012d17b9618d"
 					(reference "C59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "AD8604ARUZ_1")
+		(lib_id "AD8604ARUZ:AD8604ARUZ")
+		(at 786.13 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "454291ee-c368-4085-82ae-9c39280434fa")
+		(property "Reference" "U60D1"
+			(at 786.13 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AD8604ARUZ"
+			(at 786.13 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AD8604ARUZ:SOP65P640X120-14N"
+			(at 786.13 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 786.13 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 786.13 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Analog Devices"
+			(at 786.13 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "DigiTrim™ RRIO Quad Op Amp with Very Low Offset Voltage"
+			(at 786.13 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "TSSOP-14"
+			(at 786.13 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AD8604ARUZ"
+			(at 786.13 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 786.13 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "TSSOP-14 Analog Devices"
+			(at 786.13 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1660995"
+			(at 786.13 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AD8604ARUZ/Analog+Devices/view-part/?ref=snap"
+			(at 747.522 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "AD8604ARUZ"
+			(at 786.13 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" "Analog Devices"
+			(at 786.13 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_NEWARK" "19M8924"
+			(at 786.13 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 786.13 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/AD8604ARUZ/Analog+Devices/view-part/?ref=eda"
+			(at 747.776 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "cb48f894-5797-4558-80aa-f699532be979")
+		)
+		(pin "8"
+			(uuid "92e36b07-519f-4ba7-9371-e9013492caa9")
+		)
+		(pin "1"
+			(uuid "52e5efdd-102f-4bd1-8ac6-4e555aafd3a2")
+		)
+		(pin "12"
+			(uuid "ba1c4224-bf60-477e-ae91-59e019a54d18")
+		)
+		(pin "7"
+			(uuid "684d72ee-a720-45a9-8c95-07ab8d7479a1")
+		)
+		(pin "2"
+			(uuid "b4da4b5e-c0be-476e-8bde-9b0998908817")
+		)
+		(pin "9"
+			(uuid "698d62ca-21d4-4bce-9ee4-a3d3fc9ae16d")
+		)
+		(pin "11"
+			(uuid "38e91347-88b2-4cac-9a3f-b48261c0411c")
+		)
+		(pin "6"
+			(uuid "7f0c9d6c-9590-4879-bcca-a7eab60c7b73")
+		)
+		(pin "13"
+			(uuid "a07b4b73-9c8e-40a8-842f-caed7b866d3a")
+		)
+		(pin "4"
+			(uuid "757bb384-aaed-4d27-9a41-ce72caf6272d")
+		)
+		(pin "3"
+			(uuid "6b30cbc8-abe5-486a-89b7-903ed4bd553d")
+		)
+		(pin "5"
+			(uuid "7aeb4d8c-aac9-493e-8154-4fd2b9a90726")
+		)
+		(pin "10"
+			(uuid "ed755980-e69c-4c6a-b2a1-da13c0c85d70")
+		)
+		(instances
+			(project "04-Pilotaggio Matrice"
+				(path "/dbbecc10-9e32-47f2-bd9c-012d17b9618d"
+					(reference "U60D1")
 					(unit 1)
 				)
 			)
@@ -51088,6 +51624,73 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 749.3 199.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71e27e94-a2eb-4364-802e-d9bb86eb3f39")
+		(property "Reference" "R113"
+			(at 749.3 201.422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100K"
+			(at 749.3 197.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 749.554 198.374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 749.3 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 749.3 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dcbffb7-3f00-4147-9118-6308adc624ed")
+		)
+		(pin "2"
+			(uuid "99de281c-c8e2-47aa-bed4-d079988d5413")
+		)
+		(instances
+			(project "04-Pilotaggio Matrice"
+				(path "/dbbecc10-9e32-47f2-bd9c-012d17b9618d"
+					(reference "R113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 441.96 220.98 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -52217,6 +52820,241 @@
 		)
 	)
 	(symbol
+		(lib_name "AD8604ARUZ_1")
+		(lib_id "AD8604ARUZ:AD8604ARUZ")
+		(at 784.86 201.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "822329c1-77f1-4205-beed-1123d8be254b")
+		(property "Reference" "U60D3"
+			(at 784.86 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AD8604ARUZ"
+			(at 784.86 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AD8604ARUZ:SOP65P640X120-14N"
+			(at 784.86 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 784.86 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 784.86 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Analog Devices"
+			(at 784.86 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "DigiTrim™ RRIO Quad Op Amp with Very Low Offset Voltage"
+			(at 784.86 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "TSSOP-14"
+			(at 784.86 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AD8604ARUZ"
+			(at 784.86 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 784.86 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "TSSOP-14 Analog Devices"
+			(at 784.86 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1660995"
+			(at 784.86 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AD8604ARUZ/Analog+Devices/view-part/?ref=snap"
+			(at 746.252 197.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "AD8604ARUZ"
+			(at 784.86 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" "Analog Devices"
+			(at 784.86 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_NEWARK" "19M8924"
+			(at 784.86 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 784.86 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/AD8604ARUZ/Analog+Devices/view-part/?ref=eda"
+			(at 746.506 200.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "43d13418-fb80-416b-82b8-1d6e2be3563c")
+		)
+		(pin "8"
+			(uuid "3fdb0b76-ac2b-4af2-bc63-320af9b0e8d3")
+		)
+		(pin "1"
+			(uuid "787b20f1-3d0e-4114-9cd0-93aab03cb056")
+		)
+		(pin "12"
+			(uuid "8c6ef175-d550-4efb-ae4d-890bd1a581d4")
+		)
+		(pin "7"
+			(uuid "c7c09a64-5d2d-4e8d-b686-749c940c9c5c")
+		)
+		(pin "2"
+			(uuid "cdcb2d62-d916-4fa8-bd27-c7dff5ea5843")
+		)
+		(pin "9"
+			(uuid "091b3b45-2ceb-42a5-aa83-6c1f7f9c9a9b")
+		)
+		(pin "11"
+			(uuid "997220cd-79e4-4dd2-9055-7681b6fa963d")
+		)
+		(pin "6"
+			(uuid "6d1a7fb2-7aad-46f4-82a5-d2539b9bdb20")
+		)
+		(pin "13"
+			(uuid "25a97393-22ea-4b23-92c0-d9accf28fd2e")
+		)
+		(pin "4"
+			(uuid "3a5444d0-46c1-43e5-bb5e-c4a89a96601a")
+		)
+		(pin "3"
+			(uuid "6742cb71-7b9f-4431-a9ae-dfe48193f892")
+		)
+		(pin "5"
+			(uuid "c3e66366-ad52-4902-ae7c-62b2a94f5910")
+		)
+		(pin "10"
+			(uuid "c6954987-1699-4118-ad2e-02dfaa484a5d")
+		)
+		(instances
+			(project "04-Pilotaggio Matrice"
+				(path "/dbbecc10-9e32-47f2-bd9c-012d17b9618d"
+					(reference "U60D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 39.37 54.61 0)
 		(unit 1)
@@ -52808,6 +53646,73 @@
 			(project "04-Pilotaggio Matrice"
 				(path "/dbbecc10-9e32-47f2-bd9c-012d17b9618d"
 					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 754.38 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8788f3d1-d9b2-4247-9682-4cea61ced88c")
+		(property "Reference" "R114"
+			(at 752.348 203.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100K"
+			(at 756.412 203.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 755.396 203.454 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 754.38 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 754.38 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0424878-74da-4cb6-be8c-420035db8615")
+		)
+		(pin "2"
+			(uuid "9f6bfb3e-c200-446b-8169-bd0bbc819872")
+		)
+		(instances
+			(project "04-Pilotaggio Matrice"
+				(path "/dbbecc10-9e32-47f2-bd9c-012d17b9618d"
+					(reference "R114")
 					(unit 1)
 				)
 			)
@@ -57519,6 +58424,241 @@
 			(project "04-Pilotaggio Matrice"
 				(path "/dbbecc10-9e32-47f2-bd9c-012d17b9618d"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "AD8604ARUZ_1")
+		(lib_id "AD8604ARUZ:AD8604ARUZ")
+		(at 786.13 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bde7bf8d-2157-4a92-88fa-49831ebd2e67")
+		(property "Reference" "U60D2"
+			(at 786.13 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AD8604ARUZ"
+			(at 786.13 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AD8604ARUZ:SOP65P640X120-14N"
+			(at 786.13 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 786.13 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 786.13 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Analog Devices"
+			(at 786.13 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "DigiTrim™ RRIO Quad Op Amp with Very Low Offset Voltage"
+			(at 786.13 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "TSSOP-14"
+			(at 786.13 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AD8604ARUZ"
+			(at 786.13 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 786.13 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "TSSOP-14 Analog Devices"
+			(at 786.13 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1660995"
+			(at 786.13 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AD8604ARUZ/Analog+Devices/view-part/?ref=snap"
+			(at 747.522 144.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "AD8604ARUZ"
+			(at 786.13 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" "Analog Devices"
+			(at 786.13 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OC_NEWARK" "19M8924"
+			(at 786.13 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 786.13 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/AD8604ARUZ/Analog+Devices/view-part/?ref=eda"
+			(at 747.776 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "f24ea56f-16d3-417a-8ce5-14e238a05bf0")
+		)
+		(pin "8"
+			(uuid "5837dbcf-8056-478f-a5a8-d8e7e5427183")
+		)
+		(pin "1"
+			(uuid "ed65cbf0-450b-4af8-bd34-757f9108da9c")
+		)
+		(pin "12"
+			(uuid "040a6438-50ce-4419-82e9-ef435ffd553d")
+		)
+		(pin "7"
+			(uuid "c567b60a-f502-47f8-a2b3-bdc9a073320c")
+		)
+		(pin "2"
+			(uuid "6327abc6-a544-4aa8-b154-ac0084d41a46")
+		)
+		(pin "9"
+			(uuid "6dd76651-d9fc-45a2-b7cb-2d7578cccffb")
+		)
+		(pin "11"
+			(uuid "92909e78-8c3d-44ab-9be4-11aa94ce2018")
+		)
+		(pin "6"
+			(uuid "845259e5-e8eb-4401-bedf-2190f656ea9f")
+		)
+		(pin "13"
+			(uuid "7b34d845-5b4e-4af7-a292-5817abd925fd")
+		)
+		(pin "4"
+			(uuid "522e621a-4712-4851-acd6-aa261e13192a")
+		)
+		(pin "3"
+			(uuid "708f9e17-10aa-4f4f-9649-9f380768859a")
+		)
+		(pin "5"
+			(uuid "4cb05210-51a9-4b43-a30f-7e5f115ba792")
+		)
+		(pin "10"
+			(uuid "c70378d8-8ce8-45f5-bbe8-6a37509f8960")
+		)
+		(instances
+			(project "04-Pilotaggio Matrice"
+				(path "/dbbecc10-9e32-47f2-bd9c-012d17b9618d"
+					(reference "U60D2")
 					(unit 1)
 				)
 			)
