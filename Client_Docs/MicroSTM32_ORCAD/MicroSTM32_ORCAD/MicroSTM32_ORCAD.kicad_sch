@@ -21369,7 +21369,7 @@
 	)
 	(text "USB"
 		(exclude_from_sim no)
-		(at -416.56 -171.0077 180)
+		(at -416.56 -171.0077 0)
 		(effects
 			(font
 				(size 1.3057 1.1751)
